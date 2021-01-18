@@ -14,11 +14,11 @@ var btnTranslate = document.querySelector("#btn-translate");
 
 var txtInput = document.querySelector("#txt-input");
 
-console.log(txtInput)
+var outputDiv =  document.querySelector("#output");
+
 
 function clickHandler() {
-    console.log("click");
-    console.log("input", txtInput.value);
+    outputDiv.innerText = "skflkflskflkfkasfksa "  + txtInput.value;
 };
 
 btnTranslate.addEventListener("click", clickHandler)
