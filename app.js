@@ -1,2 +1,4 @@
 console.log("Hello script is working in app.js");
-alert("This Script Work");
+
+var username = prompt("Give Me Your Username");
+alert("This script is worked " + username);
