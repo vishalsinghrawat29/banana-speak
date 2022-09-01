@@ -25,6 +25,7 @@ body{
 .container-center{
     max-width: 600px;
     margin: auto;
+    padding: 0 2rem;
 }
 .btn{
     background-color: var(--primary-color);
@@ -60,12 +61,28 @@ textarea{
 .footer h2{
     font-size: 2rem;
     margin: 0;
-    padding-top: 1rem;
+    padding-top: 0.5rem;
 
 }
 .footer p{
     font-size: 1rem;
     max-width: 600px;
     margin: 0px auto;
-    padding: 1rem;
+    padding: 0.1rem 0.7rem 0rem 0.7rem;
+}
+
+a{
+    color: #781ede;
+    text-decoration: none;
+}
+.footer{
+    padding: 0rem 0rem 0.1rem 0;
+}
+.list-non-bullet{
+    list-style: none;
+    padding: 0;
+}
+.list-item-inline{
+    display: inline;
+    padding: 0rem 0.5rem ;
 }
